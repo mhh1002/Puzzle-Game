@@ -1,65 +1,71 @@
-# Puzzle Game 🧩
+# 🧩 Puzzle Game
 
-A simple Java Swing-based **Puzzle Game** with a basic GUI structure for login and registration. This project showcases how to build a puzzle game UI with placeholder login/register pages, ideal as a learning or prototype project.
+A Java Swing-based **image tile puzzle game** with a structured GUI for login and registration. This project features a playable sliding puzzle and placeholder login/signup interfaces, ideal for educational purposes or UI prototyping.
 
 ---
 
 ## 🔍 Features
 
-- 🧩 **Puzzle Gameplay**: Rearrange shuffled image tiles to complete the puzzle.
-- 🖼️ **Custom Image Assets**: Includes themed puzzle images and button icons.
-- 👤 **Login/Sign-Up GUI** *(UI only)*: Screens for login and registration are implemented visually, but **no backend validation or persistence logic** is included yet.
+- 🧩 **Sliding Puzzle Game**  
+  Rearrange shuffled image tiles to restore the full picture.
+
+- 👤 **Login & Registration UI (Frontend Only)**  
+  Visually designed login and signup windows using Swing, but **no actual authentication or data persistence yet**.
+
+- 🎨 **Custom Graphics**  
+  Includes button icons, UI labels (e.g., "登录按钮.png"), and tile images stored in a structured directory.
+
+- 📁 **Organized Image Resources**  
+  Puzzle images are placed under folders like `image/animal/animal3/1.png`, `image/login/`, etc.
 
 ---
 
 ## 📁 Project Structure
-Project/
+
+Puzzle-Game/
 ├── src/
-│ ├── GameMainFrame.java # Puzzle game logic and GUI
-│ ├── LoginFrame.java # Login window (UI only)
-│ └── SignUp.java # Sign-up window (UI only)
+│ ├── GameMainFrame.java # Core puzzle logic and game UI
+│ ├── LoginFrame.java # Login screen (UI only)
+│ └── SignUp.java # Registration screen (UI only)
 │
 ├── image/ # Contains UI and puzzle images
 │ ├── login/ # e.g., 登录按钮.png
 │ ├── signup/
 │ └── animal/
-│ └── animal3/ # 1.png, 2.png, ..., for the puzzle
+│ └── animal3/ # 1.png, 2.png, etc.
 │
-├── PuzzleGame.jar # Built executable JAR (if available)
-└── README.md # This file
+├── PuzzleGame.jar # Optional JAR build (if available)
+└── README.md
 
 ---
 
-## ⚙️ Current Functionality
+## ⚙️ Current Implementation Status
 
-| Module       | Status      | Description                                      |
-|--------------|-------------|--------------------------------------------------|
-| Puzzle Game  | ✅ 完成     | 拖动拼图完成图像重建                             |
-| Login Frame  | ⚠️ UI界面   | 无实际用户验证逻辑                              |
-| Sign-Up Form | ⚠️ UI界面   | 输入信息不会保存，也不会传递                    |
+| Module       | Status     | Notes                                               |
+|--------------|------------|-----------------------------------------------------|
+| Puzzle Game  | ✅ Complete | Fully functional puzzle mechanics                   |
+| Login Screen | ⚠️ UI only | No actual login validation or user data handling    |
+| Sign-Up Form | ⚠️ UI only | No user data saved or used after input              |
 
 ---
 
 ## ▶️ How to Run
 
-### 💻 From Source (IntelliJ or any Java IDE)
+### 💻 Run from Source
 
-1. 克隆项目：
+1. Clone the repository:
    ```bash
    git clone https://github.com/mhh1002/Puzzle-Game.git
    cd Puzzle-Game
 
-
 ---
 
-### ✅ 如何使用：
+### ✅ Next Steps
 
-1. 将上面这段内容复制为 `README.md` 文件。
-2. 放在你的项目根目录（即包含 `.git` 的那个目录）。
-3. 然后执行：
+1. Copy this content and save it as a `README.md` file in your project root.
+2. Push it to your GitHub repository:
 
 ```bash
 git add README.md
-git commit -m "Add full project README"
+git commit -m "Add complete project README in English"
 git push origin master
-
