@@ -70,6 +70,7 @@ git add README.md
 git commit -m "Add complete project README in English"
 git push origin master
 
+---
 ## 📄 License
 
 This project is provided **as-is** for educational and demonstration purposes only.
