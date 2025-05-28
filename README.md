@@ -69,3 +69,31 @@ Puzzle-Game/
 git add README.md
 git commit -m "Add complete project README in English"
 git push origin master
+
+## 📄 License
+
+This project is provided **as-is** for educational and demonstration purposes only.
+
+You are allowed to:
+- Study and modify the source code for personal learning
+- Use the code locally for experimentation
+
+You are **not allowed to**:
+- Use any part of this project for commercial purposes
+- Redistribute the project (especially image assets) without proper attribution or permission
+- Claim authorship of resources that are not yours
+
+### 📷 Third-Party Assets
+
+Some graphical resources used in this project (e.g., button icons, images) are sourced from the **HeiMa Programmer (黑马程序员)** teaching materials. These assets are:
+
+- Not originally created by the project author
+- Included here only for learning demonstration
+- **Not licensed for public or commercial reuse**
+
+If you wish to reuse these assets, please refer to HeiMa Programmer’s official policies or replace them with your own.
+
+---
+
+Created and maintained by [@mhh1002](https://github.com/mhh1002).
+
